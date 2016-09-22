@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{133C24EB-4065-48BD-96E5-AD85C548BF94}</ProjectGuid>
+    <ProjectGuid>{1665A8C7-BA3F-4567-BBF5-5EC786BB47D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BankAService</RootNamespace>
-    <AssemblyName>BankAService</AssemblyName>
+    <RootNamespace>BankBService</RootNamespace>
+    <AssemblyName>BankBService</AssemblyName>
     <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -45,9 +45,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBankAService.cs" />
+    <Compile Include="IBankBService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BankAService.cs" />
+    <Compile Include="BankBService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

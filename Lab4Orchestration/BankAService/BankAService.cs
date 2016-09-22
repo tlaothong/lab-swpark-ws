@@ -25,8 +25,9 @@ namespace BankAService
             else
             {
                 Console.WriteLine("Withdraw rejected");
+                return 0;
             }
-            Console.WriteLine("Balance after withdraw: {0}.", amount);
+            Console.WriteLine("Balance after withdraw: {0}.", Balance);
             return amount;
         }
     }
